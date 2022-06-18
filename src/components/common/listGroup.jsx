@@ -1,8 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 
-const ListGroup = (props) => {
-  const { items, textProperty, valueProperty, selectedItem, onItemSelect } =
-    props;
+const ListGroup = ({
+  items,
+  textProperty,
+  valueProperty,
+  selectedItem,
+  onItemSelect,
+}) => {
   //   console.log("items: ", items);
 
   return (
