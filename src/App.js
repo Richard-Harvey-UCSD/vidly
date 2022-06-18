@@ -21,3 +21,10 @@ export default App;
 // reusable components
 // refactoring
 // writing clean code
+
+// Routing:
+// route parameters
+// query string
+// redirect
+// not found (404) pages
+// nested routing
