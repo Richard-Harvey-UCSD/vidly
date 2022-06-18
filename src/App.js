@@ -46,3 +46,8 @@ export default App;
 // not found (404) pages
 // nested routing
 // form validation
+
+// Forms:
+// login
+// search movies
+
