@@ -14,3 +14,10 @@ class App extends Component {
 }
 
 export default App;
+
+// Summary:
+// component design
+// component interface
+// reusable components
+// refactoring
+// writing clean code
