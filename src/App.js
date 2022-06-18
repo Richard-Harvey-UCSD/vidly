@@ -1,13 +1,21 @@
-import React, { Component } from 'react';
-import Movies from './components/movies';
-import './App.css';
+import React, { Component } from "react";
+import { Route } from "react-router-dom";
+import Movies from "./components/movies";
+import "./App.css";
+import Customers from "./components/customers";
+import Rentals from "./components/rentals";
+import NotFound from "./components/notfound";
 
 // class component
 class App extends Component {
   render() {
     return (
       <main className="container">
-        <Movies />
+        {/* <Movies /> */}
+        <Route path="/movies" component={Movies}></Route>
+        <Route path="/customers" component={Customers}></Route>
+        <Route path="/rentals" component={Rentals}></Route>
+        <Route path="/not-found" component={NotFound}></Route>
       </main>
     );
   }
