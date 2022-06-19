@@ -5,19 +5,28 @@ class LoginForm extends Component {
   state = {
     // must declare username and password as an empty string
     account: { username: "", password: "" },
+    errors: {},
   };
 
-  username = React.createRef();
+  // username = React.createRef();
 
   // componentDidMount() {
   //   this.username.current.focus();
   // }
 
+  validate = () => {
+    return { username: "Username is required." };
+  };
+
   handleSubmit = (e) => {
     e.preventDefault();
 
+    const errors = this.validate();
+    this.setState({ errors });
+    if (errors) return;
+
     // call the server
-    const username = this.username.current.value;
+    // const username = this.username.current.value;
     console.log("Submitted");
   };
 
