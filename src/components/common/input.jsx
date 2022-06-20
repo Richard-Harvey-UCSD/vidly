@@ -1,5 +1,6 @@
 import React from "react";
 
+// get the rest of the properties using rest operator
 const input = ({ name, label, error, ...rest }) => {
   return (
     <div className="form-group">
