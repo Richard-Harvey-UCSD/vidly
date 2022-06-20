@@ -1,6 +1,6 @@
 import * as genresAPI from "./fakeGenreService";
 
-// 2 deliberate bugs placed here
+// 2 deliberate bugs placed here - cleaned the code
 const movies = [
   {
     _id: "5b21ca3eeb7f6fbccd471815",
