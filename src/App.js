@@ -59,3 +59,5 @@ export default App;
 // Node.js - run JS outside of the browser
 // Express.js - build RESTful APIs
 // MongoDB - create database
+
+// Setup MongoDB database
