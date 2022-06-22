@@ -68,3 +68,5 @@ export default App;
 // Update:
 // fakeMovieService -> MovieService
 // fakeGenreService -> GenreServiceS
+
+// Connect movieForm.js to the backend
