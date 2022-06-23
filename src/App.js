@@ -70,3 +70,9 @@ export default App;
 // fakeGenreService -> GenreServiceS
 
 // Connect movieForm.js to the backend
+
+// Authentication and Authorization:
+// JSON Web Tokens
+// Calling Protected APIs
+// Showing / Hiding Elements
+// Protecting Routes
