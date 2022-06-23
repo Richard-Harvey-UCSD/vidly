@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Input from "./common/input";
 import Joi from "joi-browser";
 import Form from "./common/form";
-import { login } from "../services/authService";
+import auth from "../services/authService";
 
 class LoginForm extends Form {
   state = {
@@ -21,9 +21,8 @@ class LoginForm extends Form {
     // console.log("Submitted");
     try {
       const { data } = this.state;
-      const { data: jwt } = await login(data.username, data.password);
+      await auth.login(data.username, data.password);
       // console.log("jwt: ", jwt);
-      localStorage.setItem("token", jwt);
       window.location = "/";
     } catch (ex) {
       if (ex.response && ex.response.status === 400) {
