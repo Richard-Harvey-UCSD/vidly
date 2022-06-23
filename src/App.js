@@ -73,7 +73,7 @@ export default App;
 // Express.js - build RESTful APIs
 // MongoDB - create database
 
-// Setup MongoDB database
+// Setup MongoDB database - set users to admin here
 
 // Update:
 // fakeMovieService -> MovieService
