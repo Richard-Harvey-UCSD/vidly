@@ -72,7 +72,8 @@ export default App;
 // Connect movieForm.js to the backend
 
 // Authentication and Authorization:
-// JSON Web Tokens
+// JSON Web Tokens - used to authenticate users
 // Calling Protected APIs
 // Showing / Hiding Elements
 // Protecting Routes
+
