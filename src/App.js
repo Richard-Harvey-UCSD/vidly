@@ -99,3 +99,9 @@ export default App;
 // Environment Variables
 // Production Builds - can run on server
 // Deploying to Heroku - cloud service
+
+// Accounts:
+// Heroku - cloud application deployment
+// mLab - cloud database storage
+// MongoDB - local database
+// Sentry - database issue logger
