@@ -109,3 +109,8 @@ export default App;
 
 // git push heroku master
 // heroku open
+
+// Advanced Topics:
+// Higher Order Components
+// Hooks
+// Context
