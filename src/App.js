@@ -98,4 +98,4 @@ export default App;
 // Deployment:
 // Environment Variables
 // Production Builds - can run on server
-// Deploying to Heroku
+// Deploying to Heroku - cloud service
