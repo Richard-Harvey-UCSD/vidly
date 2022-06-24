@@ -97,5 +97,5 @@ export default App;
 
 // Deployment:
 // Environment Variables
-// Production Builds
+// Production Builds - can run on server
 // Deploying to Heroku
