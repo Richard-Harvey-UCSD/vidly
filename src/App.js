@@ -93,3 +93,4 @@ export default App;
 // Showing / Hiding Elements
 // Protecting Routes
 
+// Exercise: only show delete button if user is logged in and has admin role
