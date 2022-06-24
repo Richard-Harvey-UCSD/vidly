@@ -106,3 +106,6 @@ export default App;
 // MongoDB - local database
 // Sentry - database issue logger
 // Git
+
+// git push heroku master
+// heroku open
