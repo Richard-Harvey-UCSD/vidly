@@ -94,3 +94,8 @@ export default App;
 // Protecting Routes
 
 // Exercise: only show delete button if user is logged in and has admin role
+
+// Deployment:
+// Environment Variables
+// Production Builds
+// Deploying to Heroku
